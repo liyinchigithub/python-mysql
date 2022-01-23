@@ -2,6 +2,8 @@
 
 ## 环境配置
 
+python3.7
+
 >安装python、pip
 
 ## 更新pip
