@@ -40,7 +40,7 @@ def test_pymysql():
     try:
         # 创建数据库
         DB_NAME = 'demo'
-        cursor.execute('DROP DATABASE IF EXISTS %s' % DB_NAME)
+        cursor.execute('DROP DATABASE IF EXISTS %s' % DB_NAME) # 占位符 %s
         cursor.execute('CREATE DATABASE IF NOT EXISTS %s' % DB_NAME)
         conn.select_db(DB_NAME)
 
